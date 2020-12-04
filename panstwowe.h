@@ -1,13 +1,16 @@
+#ifndef PANSTWOWE_H
+#define PANSTWOWE_H
+
 #pragma once
 #include "ksiazki_telefoniczne.cpp"
 #include "instytucje.h"
 class panstwowe :
-	public instytucje
+    public instytucje
 {
 private:
-	string nazwa = "panstwowe";
+    string nazwa = "panstwowe";
 protected:
-	string wojewodztwo;
+    string wojewodztwo;
 public:
 };
-
+#endif // PANSTWOWE_H
